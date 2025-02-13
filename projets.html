@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Beth+Ellen&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Projets</title>
+</head>
+<body>
+    <header>
+        <section class="menu-burger-container" id="menu-burger-container">
+            <div class="menu-burger-items">
+                <a href="#accueil" id="logo">
+                    Clémence <br>Dumont- <br>Lespinats
+                </a>
+            </div>
+            <div class="menu-burger-items">
+                <button onclick="menuBurger()" id="menu-icon">
+                    <img src="assets/menu-icon.svg" alt="Icone du menu burger">
+                </button>
+            </div>
+        </section>
+
+        <section class="navbar-mobile-container" id="navbar-mobile-container">
+            <ul>
+                <li><a href="index.html" class="navbar-mobile-items">Accueil</a></li>
+                <li><a href="parcours.html" class="navbar-mobile-items">Parcours</a></li>
+                <li><a href="projets.html" id="active" class="navbar-mobile-items">Projets</a></li>
+                <li><a href="competences.html" class="navbar-mobile-items">Compétences</a></li>
+                <li><a href="contact.html" class="navbar-mobile-items">Contact</a></li>
+            </ul>
+        </section>
+
+        <section class="navbar-container">
+            <a href="index.html" id="logo">Clémence<br>Dumont-<br>Lespinats</a>
+            <a href="index.html" class="navbar-items">Accueil</a>
+            <a href="parcours.html" class="navbar-items">Parcours</a>
+            <a href="projets.html" id="active" class="navbar-items">Projets</a>
+            <a href="competences.html" class="navbar-items">Compétences</a>
+            <a href="contact.html" class="navbar-items">Contact</a>
+        </section>
+    </header>
+
+    <main>
+        <div class="titre-container">
+            <h1>MES PROJETS</h1>
+            <p class="resume-container">N’ayant pas eu l’occasion de réaliser beaucoup de projets à l’heure actuelle, mon portfolio en est limité. <br>
+                Cependant, chaque expérience m’a apporté des connaissances fondamentales.</p>
+        </div>
+
+        <div class="row" id="row-projets">
+            <div class="col-4">
+                <h2 class="statut-projet-item">Terminés</h2>
+                
+                <div class="etape-container">
+                    <h2>Jeu de la vie</h2>
+                    <p>Projet réalisé en C++ en utilisant la programmation orientée objet avec réalisation de diagramme de classe, diagramme d'activité et diagramme de séquences.</p>
+                    <a href="https://github.com/clemdmtle" target="_blank" class="github-icon">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+    
+                <div class="etape-container">
+                    <h2>Portfolio</h2>
+                    <p>Réalisé avec HTML, CSS et Javascript d'après une maquette faite sur Figma.</p>
+                    <a href="https://github.com/clemdmtle" target="_blank" class="github-icon">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+    
+            <div class="col-4">
+                <h2 class="statut-projet-item">En cours</h2>
+                
+                <div class="etape-container">
+                    <h2>CESITutor</h2>
+                    <p>Application web ayant pour but de mettre en relation des élèves cherchant des cours de soutien avec des élèves de promotions supérieures pouvant leur en fournir. Avec du HTML, CSS, JS, Firebase.
+                        Projet dans le cadre du projet citoyen du CESI.</p>
+                </div>
+            </div>
+    
+            <div class="col-4">
+                <h2 class="statut-projet-item">A venir</h2>
+                
+                <div class="etape-container">
+                    <h2>Site de gestion de projets</h2>
+                    <p>Application web pour gérer des projets seuls ou avec des collaborateurs.</p>
+                </div>
+    
+                <div class="etape-container">
+                    <h2>2048</h2>
+                    <p>Projet réalisé à L1 Maths-Info en C++ que je reproduis de zéro en utilisant la programmation orientée objet.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <div>
+            <a href="mentions.html">Mentions légales</a>
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Beth+Ellen&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Compétences</title>
+</head>
+<body>
+    <header>
+        <section class="menu-burger-container" id="menu-burger-container">
+            <div class="menu-burger-items">
+                <a href="#accueil" id="logo">
+                    Clémence <br>Dumont- <br>Lespinats
+                </a>
+            </div>
+            <div class="menu-burger-items">
+                <button onclick="menuBurger()" id="menu-icon">
+                    <img src="assets/menu-icon.svg" alt="Icone du menu burger">
+                </button>
+            </div>
+        </section>
+
+        <section class="navbar-mobile-container" id="navbar-mobile-container">
+            <ul>
+                <li><a href="index.html" class="navbar-mobile-items">Accueil</a></li>
+                <li><a href="parcours.html" class="navbar-mobile-items">Parcours</a></li>
+                <li><a href="projets.html" class="navbar-mobile-items">Projets</a></li>
+                <li><a href="competences.html" id="active" class="navbar-mobile-items">Compétences</a></li>
+                <li><a href="contact.html" class="navbar-mobile-items">Contact</a></li>
+            </ul>
+        </section>
+
+        <section class="navbar-container">
+            <a href="index.html" id="logo">Clémence<br>Dumont-<br>Lespinats</a>
+            <a href="index.html" class="navbar-items">Accueil</a>
+            <a href="parcours.html" class="navbar-items">Parcours</a>
+            <a href="projets.html" class="navbar-items">Projets</a>
+            <a href="competences.html" id="active" class="navbar-items">Compétences</a>
+            <a href="contact.html" class="navbar-items">Contact</a>
+        </section>
+    </header>
+
+    <main>
+        <div>
+            <h1>MES COMPETENCES</h1>    
+        </div>
+
+        <section class="section-comp">
+            <h2 class="comp-title">Technologies</h2>
+            <div class="comp-container">
+                <img src="assets/arduino.png" alt="arduino" class="logo-comp">
+                <img src="assets/c.png" alt="c" class="logo-comp">
+                <img src="assets/cpp.png" alt="cpp" class="logo-comp">
+                <img src="assets/html-css.png" alt="html-css" class="logo-comp">
+                <img src="assets/js.png" alt="javascript" class="logo-comp">
+                <img src="assets/mysql-com-icon.png" alt="mysql" class="logo-comp">
+                <img src="assets/python.png" alt="python" class="logo-comp">
+            </div>
+        </section>
+
+        <section class="section-comp">
+            <h2 class="comp-title">Logiciels/Systèmes d'exploitation</h2>
+            <div class="comp-container">
+                <img src="assets/cisco.png" alt="Cisco Packet Tracer" class="logo-comp">
+                <img src="assets/figma_logo.png" alt="Figma" class="logo-comp">
+                <img src="assets/GitHub-logo.png" alt="Github" class="logo-comp">
+                <img src="assets/office.png" alt="suite-office" class="logo-comp">
+                <img src="assets/vscode.png" alt="vscode" class="logo-comp">
+                <img src="assets/linux.png" alt="linux" class="logo-comp">
+                <img src="assets/windows.png" alt="windows" class="logo-comp">
+            </div>
+        </section>
+
+        <section class="section-comp">
+            <h2 class="comp-title">Langues</h2>
+            <div class="comp-container">
+                <div class="langues-item">
+                    <img src="assets/français.png" alt="drapeau-fr" class="logo-comp">
+                    <p>Langue maternelle</p>
+                </div>
+                <div class="langues-item">
+                    <img src="assets/anglais.png" alt="drapeau-uk" class="logo-comp">
+                    <p>CLES B2</p>
+                </div>
+                <div class="langues-item">
+                    <img src="assets/allemagne.png" alt="drapeau-de"class="logo-comp">
+                    <p>CLES B1</p>
+                </div>
+            </div>
+        </section>
+    </main>    
+    
+    <footer>
+        <div>
+            <a href="mentions.html">Mentions légales</a>
+        </div>
+    </footer>
+
+</body>
+</html>

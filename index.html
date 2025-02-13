@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Beth+Ellen&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Accueil</title>
+</head>
+<body>
+    <header>
+        <section class="menu-burger-container" id="menu-burger-container">
+            <div class="menu-burger-items">
+                <a href="#accueil" id="logo">
+                    Clémence <br>Dumont- <br>Lespinats
+                </a>
+            </div>
+            <div class="menu-burger-items">
+                <button onclick="menuBurger()" id="menu-icon">
+                    <img src="assets/menu-icon.svg" alt="Icone du menu burger">
+                </button>
+            </div>
+        </section>
+
+        <section class="navbar-mobile-container" id="navbar-mobile-container">
+            <ul>
+                <li><a href="index.html" id="active" class="navbar-mobile-items">Accueil</a></li>
+                <li><a href="parcours.html" class="navbar-mobile-items">Parcours</a></li>
+                <li><a href="projets.html" class="navbar-mobile-items">Projets</a></li>
+                <li><a href="competences.html" class="navbar-mobile-items">Compétences</a></li>
+                <li><a href="contact.html" class="navbar-mobile-items">Contact</a></li>
+            </ul>
+        </section>
+
+        <section class="navbar-container">
+            <a href="index.html" id="logo">Clémence<br>Dumont-<br>Lespinats</a>
+            <a href="index.html" id="active" class="navbar-items">Accueil</a>
+            <a href="parcours.html" class="navbar-items">Parcours</a>
+            <a href="projets.html" class="navbar-items">Projets</a>
+            <a href="competences.html" class="navbar-items">Compétences</a>
+            <a href="contact.html" class="navbar-items">Contact</a>
+        </section>
+    </header>
+
+    <main>
+        <div class="titre-container">
+            <h1>BIENVENUE SUR MON PORTFOLIO !</h1>
+        </div>
+
+        <div class="apropos-container">
+            <div class="apropos-item">
+                <img id="photo-profil" src="assets/photoprofil.png" alt="Photo">
+            </div>
+            <div class="apropos-item">
+                <p>Originaire de région parisienne, j'ai emménagé à Strasbourg dans le cadre de mes études. J'y habite depuis près de trois ans. <br>
+                    Dans mon temps libre, j'aime lire, crocheter, courir... <br>
+                    Depuis 2023, je suis élève à l'école d'ingénieur CESI, actuellement en A2 mineure Sciences du numérique. <br>
+                    Passionnée par le développement, je suis à la recherche d'une alternance de 36 mois à partir d'octobre 2025 aux alentours de Strasbourg. <br>
+                <p id="logo2">Clémence<br>Dumont-<br>Lespinats</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div>
+            <a href="mentions.html">Mentions légales</a>
+        </div>
+    </footer>
+
+</body>
+</html>
